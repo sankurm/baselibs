@@ -70,8 +70,8 @@ class InterruptibleState final : public score::concurrency::detail::TypedBaseInt
 
     template <
         typename V = Value,
-        std::enable_if_t<std::is_move_constructible<V>::value && !std::is_lvalue_reference<V>::value, bool> = true>
-    bool SetValue(Value&& value)
+        std::enable_if_t<std::is_constructible<Value, V&&>::value && !std::is_lvalue_reference<V>::value, bool> = true>
+    bool SetValue(V&& value)
     {
         if ((this->TestAndMarkValueAsSet()) == true)
         {
@@ -80,18 +80,18 @@ class InterruptibleState final : public score::concurrency::detail::TypedBaseInt
 
         // Use the constructor instead of assignment operator to circumvent issue with types that are not assignable
         // NOLINTNEXTLINE(score-no-dynamic-raw-memory): Non-assignable types workaround
-        new (&value_) score::Result<Value>{std::move(value)};
+        [[maybe_unused]] auto _ = new (&value_) score::Result<Value>{std::move(value)};
 
         MakeReady();
         TriggerContinuations();
         return true;
     }
 
-    template <typename V = Value, std::enable_if_t<std::is_copy_constructible<V>::value, bool> = true>
+    template <typename V = Value, std::enable_if_t<std::is_constructible<Value, const V&>::value, bool> = true>
     // && !std::is_lvalue_reference<V> in move overload prevents call ambiguitiy if
     // Value is both copy and move constructible
     // coverity[autosar_cpp14_a13_3_1_violation]
-    bool SetValue(const Value& value)
+    bool SetValue(const V& value)
     {
         if ((this->TestAndMarkValueAsSet()) == true)
         {
@@ -100,7 +100,7 @@ class InterruptibleState final : public score::concurrency::detail::TypedBaseInt
 
         // Use the constructor instead of assignment operator to circumvent issue with types that are not assignable
         // NOLINTNEXTLINE(score-no-dynamic-raw-memory): Non-assignable types workaround
-        new (&value_) score::Result<Value>{value};
+        [[maybe_unused]] auto _ = new (&value_) score::Result<Value>{value};
 
         MakeReady();
         TriggerContinuations();
@@ -204,7 +204,7 @@ class InterruptibleState<Value&> final : public score::concurrency::detail::Type
 
         // Use the constructor instead of assignment operator to circumvent issue with types that are not assignable
         // NOLINTNEXTLINE(score-no-dynamic-raw-memory): Non-assignable types workaround
-        new (&value_) score::Result<std::reference_wrapper<Value>>{std::ref(value)};
+        [[maybe_unused]] auto _ = new (&value_) score::Result<std::reference_wrapper<Value>>{std::ref(value)};
 
         MakeReady();
         TriggerContinuations();
