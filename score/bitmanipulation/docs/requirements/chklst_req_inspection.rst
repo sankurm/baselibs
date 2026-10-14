@@ -181,10 +181,10 @@ Requirement Inspection Checklist
 
 Note: If a Review ID is not applicable for your requirement, then state ""n/a" in status and comment accordingly in remarks. For example "no stakeholder requirement (no rationale needed)"
 
-The following requirements in "valid" state and with "inspected" tag set are in the scope of this inspection:
+The following requirements in "valid_inspected" state are in the scope of this inspection:
 
 .. needtable::
-   :filter: "bitmanipulation" in docname and "requirements" in docname and docname is not None and status == "valid"
+   :filter: "bitmanipulation" in docname and "requirements" in docname and docname is not None
    :style: table
    :types: comp_req
    :tags: bitmanipulation
@@ -192,10 +192,10 @@ The following requirements in "valid" state and with "inspected" tag set are in 
    :colwidths: 25,25,25
    :sort: title
 
-And also the following AoUs in "valid" state and with "inspected" tag set (for these please answer the questions above as if the AoUs are requirements, except questions REQ_03_01 and REQ_03_02):
+And also the following AoUs in "valid_inspected" state (for these please answer the questions above as if the AoUs are requirements, except questions REQ_03_01 and REQ_03_02):
 
 .. needtable::
-   :filter: "bitmanipulation" in docname and "requirements" in docname and docname is not None and status == "valid"
+   :filter: "bitmanipulation" in docname and "requirements" in docname and docname is not None
    :style: table
    :types: aou_req
    :tags: bitmanipulation

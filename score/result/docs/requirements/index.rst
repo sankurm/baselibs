@@ -17,8 +17,8 @@ Requirements
 
 .. document:: Result Library Requirements
    :id: doc__result_lib_requirements
-   :status: draft
-   :version: 1
+   :status: valid
+   :version: 2
    :safety: ASIL_B
    :security: YES
    :realizes: wp__requirements_comp[version==1]
@@ -33,9 +33,8 @@ Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall provide an error handling mechanism that enables functions to return either successful values ("Get Value") or error information ("Get Error") without using C++ exceptions.
@@ -46,9 +45,8 @@ Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall provide a "Set Result" operation that accepts either a successful value of type T or an Error object.
@@ -59,9 +57,8 @@ Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall support user-defined error domains and error codes.
@@ -72,9 +69,8 @@ Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall enforce compile-time type safety for error handling operations.
@@ -85,9 +81,8 @@ Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall provide conversion utilities to transform Result objects into std::optional<T> types. The conversion shall require explicit handling of error cases before discarding error information, ensuring that errors cannot be silently ignored.
@@ -98,9 +93,8 @@ Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall provide conversion utilities to transform Result objects into score::cpp::expected objects with the same value and error types and vice versa, and to transform a Result object's value into a score::cpp::optional<T>. The conversion to score::cpp::optional<T> shall require explicit handling of error cases before discarding error information, ensuring that errors cannot be silently ignored.
@@ -114,9 +108,8 @@ Non-Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall provide deterministic behavior with no dynamic memory allocation.
@@ -127,9 +120,8 @@ Non-Functional Requirements
    :security: YES
    :safety: ASIL_B
    :derived_from: feat_req__baselibs__result_library[version==2]
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
    :satisfied_by: comp__baselibs_result[version==1]
 
    The Result library shall operate without throwing C++ exceptions.
@@ -142,9 +134,8 @@ Assumptions of Use (AoU)
    :reqtype: Functional
    :security: NO
    :safety: ASIL_B
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
 
    The user shall implement error domain classes and error code enumerations according to the library's interface specification.
 
@@ -153,9 +144,8 @@ Assumptions of Use (AoU)
    :reqtype: Functional
    :security: NO
    :safety: ASIL_B
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
 
    The user shall check and handle both successful and error states of Result objects before accessing contained values to prevent undefined behavior.
 
@@ -164,9 +154,8 @@ Assumptions of Use (AoU)
    :reqtype: Functional
    :security: NO
    :safety: ASIL_B
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
 
    The user shall implement error reaction mechanisms that transition the system to a safe state when error conditions are detected in Result objects.
 
@@ -175,9 +164,8 @@ Assumptions of Use (AoU)
    :reqtype: Non-Functional
    :security: NO
    :safety: ASIL_B
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
 
    The user shall implement external synchronization mechanisms (e.g., mutexes, atomic operations, or locks) when accessing or modifying Result objects from multiple threads concurrently, as the library provides no internal thread safety guarantees.
 
@@ -186,9 +174,8 @@ Assumptions of Use (AoU)
    :reqtype: Non-Functional
    :security: NO
    :safety: ASIL_B
-   :status: valid
+   :status: valid_inspected
    :version: 1
-   :tags: inspected
 
    The user shall ensure that error domain objects and referenced resources remain valid throughout the entire lifetime of any dependent Result or Error objects.
 
