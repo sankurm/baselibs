@@ -287364,7 +287364,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/0__CanGetEndFromIterator",
+    "name": "Typed/DeSerializeIteratorFixture/0__PostfixIncrementReturnsPreviousPosition",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "175",
     "result": "passed",
@@ -287378,9 +287378,23 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/0__CheckBufferNotEmpty",
+    "name": "Typed/DeSerializeIteratorFixture/0__CanGetEndFromIterator",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "188",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "Typed/DeSerializeIteratorFixture/0__CheckBufferNotEmpty",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "201",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287434,7 +287448,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/1__CanGetEndFromIterator",
+    "name": "Typed/DeSerializeIteratorFixture/1__PostfixIncrementReturnsPreviousPosition",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "175",
     "result": "passed",
@@ -287448,9 +287462,23 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/1__CheckBufferNotEmpty",
+    "name": "Typed/DeSerializeIteratorFixture/1__CanGetEndFromIterator",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "188",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "Typed/DeSerializeIteratorFixture/1__CheckBufferNotEmpty",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "201",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287504,7 +287532,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/2__CanGetEndFromIterator",
+    "name": "Typed/DeSerializeIteratorFixture/2__PostfixIncrementReturnsPreviousPosition",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "175",
     "result": "passed",
@@ -287518,9 +287546,23 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/2__CheckBufferNotEmpty",
+    "name": "Typed/DeSerializeIteratorFixture/2__CanGetEndFromIterator",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "188",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "Typed/DeSerializeIteratorFixture/2__CheckBufferNotEmpty",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "201",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287574,7 +287616,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/3__CanGetEndFromIterator",
+    "name": "Typed/DeSerializeIteratorFixture/3__PostfixIncrementReturnsPreviousPosition",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "175",
     "result": "passed",
@@ -287588,9 +287630,23 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/3__CheckBufferNotEmpty",
+    "name": "Typed/DeSerializeIteratorFixture/3__CanGetEndFromIterator",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "188",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "Typed/DeSerializeIteratorFixture/3__CheckBufferNotEmpty",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "201",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287644,7 +287700,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/4__CanGetEndFromIterator",
+    "name": "Typed/DeSerializeIteratorFixture/4__PostfixIncrementReturnsPreviousPosition",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "175",
     "result": "passed",
@@ -287658,9 +287714,23 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/4__CheckBufferNotEmpty",
+    "name": "Typed/DeSerializeIteratorFixture/4__CanGetEndFromIterator",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "188",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "Typed/DeSerializeIteratorFixture/4__CheckBufferNotEmpty",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "201",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287714,7 +287784,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/5__CanGetEndFromIterator",
+    "name": "Typed/DeSerializeIteratorFixture/5__PostfixIncrementReturnsPreviousPosition",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "175",
     "result": "passed",
@@ -287728,7 +287798,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "Typed/DeSerializeIteratorFixture/5__CheckBufferNotEmpty",
+    "name": "Typed/DeSerializeIteratorFixture/5__CanGetEndFromIterator",
     "file": "score/serialization/serialize_iterator_test.cpp",
     "line": "188",
     "result": "passed",
@@ -287742,9 +287812,23 @@
     "FullyVerifies": null
   },
   {
+    "name": "Typed/DeSerializeIteratorFixture/5__CheckBufferNotEmpty",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "201",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
     "name": "Typed/DeSerializeIteratorFixtureEmptyBuffer/0__CheckBufferEmpty",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "197",
+    "line": "210",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287758,7 +287842,7 @@
   {
     "name": "Typed/DeSerializeIteratorFixtureEmptyBuffer/1__CheckBufferEmpty",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "197",
+    "line": "210",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287772,7 +287856,7 @@
   {
     "name": "Typed/DeSerializeIteratorFixtureEmptyBuffer/2__CheckBufferEmpty",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "197",
+    "line": "210",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287786,7 +287870,7 @@
   {
     "name": "Typed/DeSerializeIteratorFixtureEmptyBuffer/3__CheckBufferEmpty",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "197",
+    "line": "210",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287800,7 +287884,7 @@
   {
     "name": "Typed/DeSerializeIteratorFixtureEmptyBuffer/4__CheckBufferEmpty",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "197",
+    "line": "210",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287814,7 +287898,21 @@
   {
     "name": "SerializeIteratorTest__OverflowsOnStaticTypes",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "245",
+    "line": "259",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "SerializeIteratorTest__OverflowsOnBoundedContainer",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "276",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -287828,7 +287926,21 @@
   {
     "name": "SerializeIteratorTest__ProvideSerializationWindows",
     "file": "score/serialization/serialize_iterator_test.cpp",
-    "line": "262",
+    "line": "292",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "SerializeIteratorTest__CountsOnlyBytesWrittenIntoNonEmptyGrowableContainer",
+    "file": "score/serialization/serialize_iterator_test.cpp",
+    "line": "322",
     "result": "passed",
     "repo_name": null,
     "hash": null,
@@ -288890,7 +289002,7 @@
     "FullyVerifies": null
   },
   {
-    "name": "UnsignedIntegralOnlyStrategyTest__SerializeNormalByteOrder",
+    "name": "UDSStrategyFixture__DeserializeLengthPrefixedVectorFailsWhenPrefixExceedsBuffer",
     "file": "score/serialization/strategies/uds_strategy_test.cpp",
     "line": "419",
     "result": "passed",
@@ -288904,9 +289016,93 @@
     "FullyVerifies": null
   },
   {
+    "name": "UDSStrategyFixture__DeserializeClearsReusedDestinations_LengthPrefixedVector",
+    "file": "score/serialization/strategies/uds_strategy_test.cpp",
+    "line": "436",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "UDSStrategyFixture__DeserializeClearsReusedDestinations_String",
+    "file": "score/serialization/strategies/uds_strategy_test.cpp",
+    "line": "453",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "UDSStrategyFixture__DeserializeClearsReusedDestinations_PmrVector",
+    "file": "score/serialization/strategies/uds_strategy_test.cpp",
+    "line": "470",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "UDSStrategyFixture__DeserializeClearsReusedDestinations_StaticVector",
+    "file": "score/serialization/strategies/uds_strategy_test.cpp",
+    "line": "487",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "UDSStrategyFixture__DeserializeEmptyInputClearsReusedStaticVector",
+    "file": "score/serialization/strategies/uds_strategy_test.cpp",
+    "line": "504",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
+    "name": "UnsignedIntegralOnlyStrategyTest__SerializeNormalByteOrder",
+    "file": "score/serialization/strategies/uds_strategy_test.cpp",
+    "line": "518",
+    "result": "passed",
+    "repo_name": null,
+    "hash": null,
+    "url": null,
+    "TestType": null,
+    "DerivationTechnique": null,
+    "result_text": "",
+    "PartiallyVerifies": null,
+    "FullyVerifies": null
+  },
+  {
     "name": "UnsignedIntegralOnlyStrategyTest__DeSerializeReverseByteOrder",
     "file": "score/serialization/strategies/uds_strategy_test.cpp",
-    "line": "437",
+    "line": "536",
     "result": "passed",
     "repo_name": null,
     "hash": null,
